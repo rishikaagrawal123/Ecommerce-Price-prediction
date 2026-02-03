@@ -5,3 +5,4 @@ class BaseScraper:
         title, price, rating, reviews, source
         """
         raise NotImplementedError
+

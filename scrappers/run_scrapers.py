@@ -9,3 +9,4 @@ def run_all(query):
     flipkart.to_excel("data/flipkart.xlsx", index=False)
 
     print("✅ Scraping completed and Excel files saved")
+

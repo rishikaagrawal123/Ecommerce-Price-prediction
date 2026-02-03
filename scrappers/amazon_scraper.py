@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
+
 class AmazonScraper:
     def scrape(self, query):
         url = f"https://www.amazon.in/s?k={query.replace(' ', '+')}"
